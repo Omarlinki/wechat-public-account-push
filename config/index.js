@@ -30,7 +30,7 @@ export const USER_CONFIG = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -41,7 +41,7 @@ export const USER_CONFIG = {
     poetry: false,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -74,14 +74,14 @@ export const USER_CONFIG = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2001", "date": "04-05"},
+//         {"type": "*生日", "name": "老婆", "year": "2001", "date": "04-05"},
 //         {"type": "节日", "name": "结婚纪念日", "year": "2025", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "老婆", "year": "2001", "date": "05-27"},
+        {"type": "生日", "name": "宝贝", "year": "2001", "date": "05-27"},
         {"type": "节日", "name": "在一起纪念日", "year": "2018","date": "12-19"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -106,30 +106,6 @@ export const USER_CONFIG = {
 //       festivals: [],
 //       customizedDateList: []
 //     },
-//     {
-//       name: "老婆2",
-//       id: "",
-//       useTemplateId: "",
-//       province: "",
-//       city: "",
-//       horoscopeDate: '',
-//       horoscopeDateType: '',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     },
-//     {
-//       name: "老婆3",
-//       id: "",
-//       useTemplateId: "",
-//       province: "",
-//       city: "",
-//       horoscopeDate: '',
-//       horoscopeDateType: '',
-//       openUrl: "https://wangxinleo.cn",
-//       festivals: [],
-//       customizedDateList: []
-//     },
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -139,7 +115,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "d7YHoeimbrRhgf-S1L4iOe-nfLWP47jQe5-TDD6VNB0",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -185,10 +161,10 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "2001", "date": "04-05", isShowAge: true},
+//     {"type": "*生日", "name": "老婆", "year": "2001", "date": "04-05", isShowAge: true},
 //     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "2001", "date": "05-27", isShowAge: true},
+    {"type": "生日", "name": "老婆", "year": "2001", "date": "05-27", isShowAge: true},
 //     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
