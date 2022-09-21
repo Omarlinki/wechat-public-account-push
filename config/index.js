@@ -66,11 +66,11 @@ export const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "d7YHoeimbrRhgf-S1L4iOe-nfLWP47jQe5-TDD6VNB0",
       // 所在省份
-//       province: "贵州省",
+      province: "贵州",
       // 所在城市
-//       city: "兴义",
+      city: "黔西南布依族苗族自治州兴义",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '5-27',
+      horoscopeDate: '05-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
