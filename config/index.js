@@ -66,7 +66,7 @@ export const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "d7YHoeimbrRhgf-S1L4iOe-nfLWP47jQe5-TDD6VNB0",
       // 所在省份
-      province: "贵州",
+      province: "贵州省",
       // 所在城市
       city: "兴义",
       // 新历生日, 仅用作获取星座运势, 格式必须
